@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "AOI_WGS11N",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32611" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 642900.0, 4886600.0 ], [ 454400.0, 4886600.0 ], [ 454400.0, 4776800.0 ], [ 642900.0, 4776800.0 ], [ 642900.0, 4886600.0 ] ] ] } },
+{ "type": "Feature", "properties": { }, "geometry": null }
+]
+}
