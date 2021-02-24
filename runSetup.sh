@@ -5,6 +5,4 @@ sudo service postgresql start
 sudo service postgresql status
 sudo -u postgres psql -c "CREATE USER gis WITH PASSWORD 'gis';"
 sudo -u postgres psql -c "CREATE DATABASE geodatabase OWNER gis;"
-sudo -u postgres psql -c "\c geodatabase;"
-sudo -u postgres psql -c "CREATE EXTENSION postgis;"
-
+sudo -u postgres psql -d geodatabase -c "CREATE EXTENSION postgis;"
